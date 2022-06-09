@@ -3,7 +3,7 @@ import selfPic from "../assets/images/Md. Yousuf Miah.jpg";
 
 const About = () => {
   return (
-    <div className=" mx-auto card my-16 w-full bg-base-200 shadow-xl">
+    <div className=" mx-auto  my-16 w-full bg-base-200 shadow-xl">
       <div className="card-body container mx-auto">
         <div className="flex justify-center items-center w-full">
           <div className="divider w-1/2 h-1 mr-2 bg-blue-500"> </div>

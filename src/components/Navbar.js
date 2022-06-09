@@ -9,7 +9,7 @@ const Navbar = ({ children }) => {
       <input id="my-drawer-3" type="checkbox" class="drawer-toggle" />
       <div class="drawer-content flex flex-col">
         {/* <!-- Navbar --> */}
-        <div class="w-full navbar bg-base-400 px-20 mt-4">
+        <div class=" w-full mx-auto navbar bg-base-400 px-20 mt-4">
           <div class="flex-1 px-2 mx-2 text-2xl">
             <img class="h-20" src={logo} alt="logo" />
           </div>
@@ -40,13 +40,13 @@ const Navbar = ({ children }) => {
                 </Link>
               </li>
               <li>
-                <Link to="/about" className="rounded-lg">
-                  About
+                <Link to="/projects" className="rounded-lg">
+                  Projects
                 </Link>
               </li>
               <li>
-                <Link to="/projects" className="rounded-lg">
-                  Projects
+                <Link to="/about" className="rounded-lg">
+                  About
                 </Link>
               </li>
               <li>

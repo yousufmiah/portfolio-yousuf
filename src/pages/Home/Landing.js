@@ -12,7 +12,7 @@ const Landing = () => {
             data-aos-duration="1000"
           >
             <p className="text-2xl font-bold"> Md. Yousuf Miah</p>
-            <h1 class="text-5xl font-bold">
+            <h1 class="sm:text-3xl md:text-5xl font-bold">
               Professional Web Developer || MERN
             </h1>
             <p class="py-6 max-w-xl text-xl">
