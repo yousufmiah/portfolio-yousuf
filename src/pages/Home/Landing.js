@@ -4,7 +4,7 @@ import yousufImg from "../../assets/images/yousuf_miah.jpg";
 const Landing = () => {
   return (
     <>
-      <div class="hero lg:h-[-60vh] bg-accent mt-5">
+      <div class="hero lg:h-[-60vh] bg-base-200 mt-5">
         <div class="hero-content flex-col lg:flex-row">
           <div
             className="max-w-xl"
@@ -15,11 +15,16 @@ const Landing = () => {
             <h1 class="text-5xl font-bold">
               Professional Web Developer || MERN
             </h1>
-            <p class="py-6 max-w-xl">
+            <p class="py-6 max-w-xl text-xl">
               I like to effort my best service as your requirements which will
               be acceptable for the success point.
             </p>
-            <button class="btn btn-primary">Download Resume</button>
+            <a
+              href="https://drive.google.com/file/d/1AfYUIwAyfkllf9jTuntc46xQneGXMFm8/view?usp=sharing"
+              target="_blank"
+            >
+              <button class="btn btn-primary"> Download Resume</button>
+            </a>
           </div>
           <div className="h-[60vh] shrink-0 ">
             <img className="" src={yousufImg} class="h-full" alt="pic" />
