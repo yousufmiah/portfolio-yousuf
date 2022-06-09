@@ -22,10 +22,15 @@ const App = () => {
     <>
       <Navbar>
         <Routes>
-          <Route path="/" element={<Home />}></Route>
-          <Route path="/projects" element={<Projects />}></Route>
-          <Route path="/about" element={<About />}></Route>
-          <Route path="/contact" element={<Contact />}></Route>
+          <Route path="/" element={<Home />}>
+            <Route index element={<SiteReact />} />
+            <Route path="html" element={<SiteHtmlCss />} />
+            <Route path="wordpress" element={<SiteWordPress />} />
+          </Route>
+
+          <Route path="/projects" element={<Projects />} />
+          <Route path="/about" element={<About />} />
+          <Route path="/contact" element={<Contact />} />
         </Routes>
         <Footer></Footer>
       </Navbar>

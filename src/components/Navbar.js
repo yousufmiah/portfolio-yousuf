@@ -39,21 +39,22 @@ const Navbar = ({ children }) => {
                   Home
                 </Link>
               </li>
-              <li>
+              {/* <li>
                 <Link to="/projects" className="rounded-lg">
                   Projects
                 </Link>
-              </li>
+              </li> */}
               <li>
                 <Link to="/about" className="rounded-lg">
                   About
                 </Link>
               </li>
               <li>
-                <Link to="/Contact" className="rounded-lg">
+                <Link to="/contact" className="rounded-lg">
                   Contact
                 </Link>
               </li>
+
               <label class="swap swap-rotate">
                 {/* <!-- this hidden checkbox controls the state --> */}
                 {/* <input type="checkbox" /> */}

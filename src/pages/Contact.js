@@ -6,16 +6,16 @@ const Contact = () => {
   };
 
   return (
-    <div className="my-12 text-center mx-auto w-1/2">
+    <div className="my-8 text-center mx-auto w-1/2">
       <div>
         <h1 className="text-xl md:text-4xl text-primary font-bold">
           Contact Form
         </h1>
       </div>
       <form onSubmit={handleSubmit}>
-        <div className="form-control w-full ">
+        <div className="form-control w-full mt-2">
           <label className="label">
-            <span className="label-text">Name</span>
+            <span className="label-text text-lg">Name</span>
           </label>
           <input
             type="text"
@@ -23,9 +23,9 @@ const Contact = () => {
             className="input input-bordered w-full "
           />
         </div>
-        <div className="form-control w-full ">
+        <div className="form-control w-full mt-2 ">
           <label className="label">
-            <span className="label-text">Email</span>
+            <span className="label-text text-lg ">Email</span>
           </label>
           <input
             type="text"
@@ -33,9 +33,9 @@ const Contact = () => {
             className="input input-bordered w-full "
           />
         </div>
-        <div className="form-control w-full ">
+        <div className="form-control w-full mt-2 ">
           <label className="label">
-            <span className="label-text">Message</span>
+            <span className="label-text text-lg ">Message</span>
           </label>
           <textarea
             className="textarea textarea-bordered"
