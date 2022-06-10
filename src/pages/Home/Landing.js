@@ -1,33 +1,53 @@
 import React from "react";
 import yousufImg from "../../assets/images/yousuf_miah.jpg";
+import { BsGithub } from "react-icons/bs";
+import { BsLinkedin } from "react-icons/bs";
 
 const Landing = () => {
   return (
     <>
-      <div class="hero lg:h-[-60vh] bg-base-200 mt-5">
-        <div class="hero-content flex-col lg:flex-row">
+      <div className="hero lg:h-[-60vh] bg-base-200 pt-28">
+        <div className="hero-content flex-col lg:flex-row">
           <div
             className="max-w-xl"
             data-aos="fade-right"
             data-aos-duration="1000"
           >
             <p className="text-2xl font-bold"> Md. Yousuf Miah</p>
-            <h1 class="sm:text-3xl md:text-5xl font-bold">
+            <h1 className="sm:text-3xl md:text-5xl font-bold text-primary">
               Professional Web Developer || MERN
             </h1>
-            <p class="py-6 max-w-xl text-xl">
+            <p className="py-4 max-w-xl text-xl">
               I like to effort my best service as your requirements which will
               be acceptable for the success point.
             </p>
+
+            <div className="flex mb-5 ">
+              <a
+                target="blank"
+                href="https://github.com/yousufmiah"
+                className="text-3xl text-primary rounded cursor-pointer mx-3"
+              >
+                <BsGithub />
+              </a>
+              <a
+                target="blank"
+                href="https://www.linkedin.com/in/yousufmiah/"
+                className="text-3xl text-primary rounded cursor-pointer mx-3"
+              >
+                <BsLinkedin />
+              </a>
+            </div>
+
             <a
               href="https://drive.google.com/file/d/1AfYUIwAyfkllf9jTuntc46xQneGXMFm8/view?usp=sharing"
               target="_blank"
             >
-              <button class="btn btn-primary"> Download Resume</button>
+              <button className="btn btn-primary"> Download Resume</button>
             </a>
           </div>
           <div className="h-[60vh] shrink-0 ">
-            <img className="" src={yousufImg} class="h-full" alt="pic" />
+            <img src={yousufImg} className="h-full" alt="pic" />
           </div>
         </div>
       </div>

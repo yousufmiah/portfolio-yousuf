@@ -1,51 +1,82 @@
 [
     
     {
-    "id":"project5",
-    "name":"",
-    "description": "Watch Zone",
-    "img":"https://i.ibb.co/TLQmhMg/image-5.png",
-    "used": "HTML, CSS, Bootstrap, Netlify",
-    "link":"https://watch-zone-yousuf.netlify.app/"
-},
-    {
-    "id":"project6",
-    "name":"",
-    "description": "Sky Convention Center",
-    "img":"https://i.ibb.co/F8Y2pdh/image-6.png",
-    "used": "HTML, CSS, Bootstrap, Netlify ",
-    "link":"https://convention-center-yousuf.netlify.app/"
-},
-    {
     "id":"project7",
     "name":"",
-    "description": "Panda eCommerce",
-    "img":"https://i.ibb.co/tL2S1C0/image-7.png",
-    "used": "HTML, CSS, Bootstrap, Netlify ",
-    "link":"https://panda-ecommerce-yousuf.netlify.app/"
+    "description": "Watch Zone",
+    "used": "HTML, CSS, Bootstrap, Netlify",
+    "link":"https://watch-zone-yousuf.netlify.app/",
+    "img":
+    [
+        "https://i.ibb.co/TLQmhMg/image-5.png",
+        "http  s://i.ibb.co/Tmmrxzr/image-7a.png",
+        "https://i.ibb.co/0smyk4t/image-7b.png"
+    ]
+
 },
     {
     "id":"project8",
     "name":"",
-    "description": "Penguin Fashion",
-    "img":"https://i.ibb.co/Y7Wn0NH/image-8.png",
+    "description": "Sky Convention Center",
     "used": "HTML, CSS, Bootstrap, Netlify ",
-    "link":"https://nike-react-yousuf.netlify.app/"
+    "link":"https://convention-center-yousuf.netlify.app/",
+    "img":
+    [
+        "https://i.ibb.co/F8Y2pdh/image-6.png",
+        "https://i.ibb.co/54QYBjR/image-8a.png",
+        "https://i.ibb.co/n8N2fJJ/image-8b.png"
+    ]
+},
+    {
+    "id":"project9",
+    "name":"",
+    "description": "Panda eCommerce",
+    "used": "HTML, CSS, Bootstrap, Netlify ",
+    "link":"https://panda-ecommerce-yousuf.netlify.app/",
+    "img":
+    [
+        "https://i.ibb.co/tL2S1C0/image-7.png",
+        "https://i.ibb.co/Fsp0Zgb/image-9a.png",
+        "https://i.ibb.co/HKYsdqc/image-9b.png"
+    ]
+},
+    {
+    "id":"project10",
+    "name":"",
+    "description": "Penguin Fashion",
+    "used": "HTML, CSS, Bootstrap, Netlify ",
+    "link":"https://nike-react-yousuf.netlify.app/",
+    "img":
+    [
+        "https://i.ibb.co/Y7Wn0NH/image-8.png",
+        "https://i.ibb.co/6bt7VTx/image-10a.png",
+        "https://i.ibb.co/wK7zQxp/image-10b.png"
+    ]
 },
    {
-    "id":"project12",
+    "id":"project11",
     "name":"",
     "description": "Monthly Accounts",
-    "img":"https://i.ibb.co/Km6WStr/image-12.png",
     "used": "HTML, CSS, Bootstrap, Netlify ",
-    "link":"https://monthly-accounts-yousuf.netlify.app/"
+    "link":"https://monthly-accounts-yousuf.netlify.app/",
+    "img":
+    [
+        "https://i.ibb.co/Km6WStr/image-12.png",
+        "https://i.ibb.co/WfwKg6v/image-11a.png",
+        "https://i.ibb.co/zsTHvqr/image11-b.png"
+    ]
 },
 {
-    "id":"project13",
+    "id":"project12",
     "name":"",
     "description": "Vegetables Shop",
-    "img":"https://i.ibb.co/1TB7pZ6/image-13.png",
     "used": "HTML, CSS, Bootstrap, Netlify",
-    "link":"https://vegetables-yousuf.netlify.app/"
+    "link":"https://vegetables-yousuf.netlify.app/",
+    "img":
+    [
+        "https://i.ibb.co/1TB7pZ6/image-13.png",
+        "https://i.ibb.co/1TB7pZ6/image-13.png",
+        "https://i.ibb.co/1TB7pZ6/image-13.png"
+    ]
 }
 ]

@@ -3,48 +3,73 @@
     "id":"project1",
     "name":"JM Computer",
     "description": "React",
-    "img":"https://i.ibb.co/Rh0NjF9/image-1.png",
-    "used": "React, JavaScript, TailwindCSS, DaisyUI, Firebase Authentication, Heroku, MongoDB, Node.js, Express.js ",
-    "link":"https://tools-478a3.web.app/"
+     "used": "React, JavaScript, TailwindCSS, DaisyUI, Firebase Authentication, Heroku, MongoDB, Node.js, Express.js ",
+    "link":"https://tools-478a3.web.app/",
+    "img":[
+        "https://i.ibb.co/Rh0NjF9/image-1.png",
+        "https://i.ibb.co/QPZFvvk/image-1a.png",
+        "https://i.ibb.co/J3zX2js/image-1b.png"
+    ]
 },
     {
     "id":"project2",
     "name":"Honda Store",
     "description": "React",
-    "img":"https://i.ibb.co/ScZtXS3/image-2.png",
     "used": "React, JavaScript, BootstrapCSS, Firebase Authentication, Heroku, MongoDB, Node.js, Express.js ",
-    "link": "https://honda-app-91b97.web.app/"
+    "link": "https://honda-app-91b97.web.app/",
+    "img": [
+        "https://i.ibb.co/ScZtXS3/image-2.png",
+        "https://i.ibb.co/HCc22YS/image-2a.png",
+        "https://i.ibb.co/LZQ1scw/image-2b.png"
+    ]
 },
     {
     "id":"project3",
     "name":"BD Tour Guid",
     "description": "React",
-    "img":"https://i.ibb.co/5cDXwzp/image-3.png",
-    "used": "React, JavaScript, BootstrapCSS, Firebase Authentication, Heroku, MongoDB, Node.js, Express.js ",
-    "link": "https://bd-tour-c7c18.web.app/"
+       "used": "React, JavaScript, BootstrapCSS, Firebase Authentication, Heroku, MongoDB, Node.js, Express.js ",
+    "link": "https://bd-tour-c7c18.web.app/",
+    "img":[
+        "https://i.ibb.co/5cDXwzp/image-3.png",
+        "https://i.ibb.co/T18VJm1/image-3a.png",
+        "https://i.ibb.co/7kR0rJB/image-3b.png"
+    ]
 },
     {
     "id":"project4",
     "name":"Car Show Room",
     "description": "React",
-    "img":"https://i.ibb.co/0QBWW5L/image-4.png",
     "used": "React, JavaScript, BootstrapCSS, Firebase Authentication, Heroku, MongoDB, Node.js, Express.js ",
-    "link": "https://car-app-yousuf.netlify.app/"
+    "link": "https://car-app-yousuf.netlify.app/",
+    "img":[
+        "https://i.ibb.co/0QBWW5L/image-4.png",
+        "https://i.ibb.co/qx3yj69/image-4a.png",
+         "https://i.ibb.co/7WxsbTR/image-4b.png"
+    ]
 },
     {
-    "id":"project9",
+    "id":"project5",
     "name":"Food site",
     "description": "React",
-    "img":"https://i.ibb.co/1Gzr2Bx/image-9.png",
-    "used": "React, JavaScript, BootstrapCSS, Firebase Authentication, Heroku, MongoDB, Node.js, Express.js ",
-    "link": "https://red-onion-546c6.web.app/"
+     "used": "React, JavaScript, BootstrapCSS, Firebase Authentication, Heroku, MongoDB, Node.js, Express.js ",
+    "link": "https://red-onion-546c6.web.app/",
+    "img":[
+        "https://i.ibb.co/1Gzr2Bx/image-9.png",
+        "https://i.ibb.co/kKLf2yg/image-5a.png",
+        "https://i.ibb.co/rd2TFJm/image-5b.png"    
+    ]
 },
     {
-    "id":"project10",
+    "id":"project6",
     "name":"Car Doctor",
     "description": "React",
-    "img":"https://i.ibb.co/5Wf6kH2/image-10.png",
     "used": "React, JavaScript, BootstrapCSS, Firebase Authentication, Heroku, MongoDB, Node.js, Express.js ",
-    "link": "https://genius-car-services-cadfd.web.app/"
+    "link": "https://genius-car-services-cadfd.web.app/",
+    "img":[
+        "https://i.ibb.co/5Wf6kH2/image-10.png",
+        "https://i.ibb.co/RpXyGTw/image-6a.png",
+        "https://i.ibb.co/C5TRjnv/image-6b.png"
+    ]
+
 }
 ]
