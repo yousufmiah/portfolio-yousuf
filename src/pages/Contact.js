@@ -42,18 +42,15 @@ const Contact = () => {
               required
             />
           </div>
-          <div className="form-control w-full mt-2 ">
-            <label className="label">
-              <span className="label-text text-lg ">Message</span>
+          <div class="form-control">
+            <label class="label">
+              <span class="label-text text-lg">Message</span>
             </label>
             <textarea
-              name="message"
-              className="textarea textarea-bordered text-xl"
-              placeholder="write here your message"
-              required
+              class="textarea textarea-bordered text-lg h-40"
+              placeholder="Write your message"
             ></textarea>
           </div>
-
           <button className=" mt-5 btn btn-primary md:px-16 text-xl ">
             Submit
           </button>
