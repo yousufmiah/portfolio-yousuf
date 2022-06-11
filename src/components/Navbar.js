@@ -104,8 +104,8 @@ const Navbar = ({ children }) => {
             </NavLink>
           </li>
           <li>
-            <NavLink to="/projects" className="rounded-lg">
-              Projects
+            <NavLink to="/blogs" className="rounded-lg">
+              Blogs
             </NavLink>
           </li>
           <li>

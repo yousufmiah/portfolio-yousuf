@@ -5,11 +5,11 @@ import { BsLinkedin } from "react-icons/bs";
 
 const Landing = () => {
   return (
-    <>
-      <div className="hero lg:h-[-60vh] bg-base-200 pt-28">
+    <div className="min-h-screen">
+      <div className="hero lg:h-[-60vh] bg-base-200 py-60">
         <div className="hero-content flex-col lg:flex-row">
           <div
-            className="max-w-xl"
+            className="max-w-5xl p-20"
             data-aos="fade-right"
             data-aos-duration="1000"
           >
@@ -46,12 +46,20 @@ const Landing = () => {
               <button className="btn btn-primary"> Download Resume</button>
             </a>
           </div>
-          <div className="h-[60vh] shrink-0 ">
-            <img src={yousufImg} className="h-full" alt="pic" />
+          <div
+            className="h-[60vh] shrink-0 "
+            data-aos="fade-up-left"
+            data-aos-duration="1000"
+          >
+            <img
+              src={yousufImg}
+              class="w-64 h-68 bg-primary rounded-full"
+              alt="pic"
+            />
           </div>
         </div>
       </div>
-    </>
+    </div>
   );
 };
 

@@ -3,24 +3,18 @@ import selfPic from "../assets/images/Md. Yousuf Miah.jpg";
 
 const About = () => {
   return (
-    <>
-      <div className="text-center mt-32">
+    <div className="">
+      <div className="text-center my-24 ">
         <h1 className="text-xl md:text-6xl text-primary font-bold">About Me</h1>
       </div>
-      <div className=" mx-auto  my-16 w-full bg-base-200 shadow-xl">
-        <div className="card-body container mx-auto">
-          <div className="flex justify-center items-center w-full">
-            <div className="divider w-1/2 h-1 mr-2 bg-blue-500"> </div>
-            <div className="w-32 h-32">
-              <img className="rounded-full" src={selfPic} alt="" />
-            </div>
-            <div className="divider w-1/2 h-1 mr-2 bg-blue-500"> </div>
+      <div className="container mx-auto flex-col md:flex-row flex justify-between my-8 ">
+        <div className="w-full md:w-1/2 border rounded m-10">
+          <div className="w-full  h-92 text-center">
+            <img className=" z-10 rounded-full mx-auto" src={selfPic} alt="" />
           </div>
-
-          <div className="text-center text-2xl font-bold mt-5">
-            <h3>Md. Yousuf Miah</h3>
-          </div>
-          <div className="text-justify text-xl leading-10  p-12">
+        </div>
+        <div className="w-full md:w-1/2 border rounded m-10">
+          <div className="  text-justify text-xl leading-10  p-12">
             <p>
               Really a great message by the grace of Almighty{" "}
               <strong> "Allah" </strong> inform you about me. This is
@@ -46,7 +40,14 @@ const About = () => {
           </div>
         </div>
       </div>
-    </>
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
+        <path
+          fill="#176F6B"
+          fill-opacity="1"
+          d="M0,32L40,37.3C80,43,160,53,240,69.3C320,85,400,107,480,128C560,149,640,171,720,170.7C800,171,880,149,960,154.7C1040,160,1120,192,1200,224C1280,256,1360,288,1400,304L1440,320L1440,320L1400,320C1360,320,1280,320,1200,320C1120,320,1040,320,960,320C880,320,800,320,720,320C640,320,560,320,480,320C400,320,320,320,240,320C160,320,80,320,40,320L0,320Z"
+        ></path>
+      </svg>
+    </div>
   );
 };
 
