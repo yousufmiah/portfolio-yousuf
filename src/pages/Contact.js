@@ -6,7 +6,7 @@ const Contact = () => {
   // };
 
   return (
-    <div className="min-h-screen">
+    <div className="md:min-h-screen">
       <div className="text-center mt-32">
         <h1 className="text-xl md:text-6xl text-primary font-bold">
           Contact Form
