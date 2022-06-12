@@ -48,6 +48,8 @@ const Contact = () => {
             </label>
             <textarea
               class="textarea textarea-bordered text-lg h-40"
+              type="text"
+              name="message"
               placeholder="Write your message"
             ></textarea>
           </div>
